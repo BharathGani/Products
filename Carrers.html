@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Careers | Dilshaj Infotech</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+}
+
+/* HERO */
+
+.hero{
+padding:90px 8%;
+text-align:center;
+background:linear-gradient(135deg,#08152d,#180428,#3d116b);
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero h1 span{
+color:#08e2f2;
+}
+
+.hero p{
+width:70%;
+margin:auto;
+font-size:18px;
+color:#ddd;
+margin-bottom:35px;
+}
+
+.search{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.search input{
+width:320px;
+padding:16px;
+border:none;
+border-radius:40px;
+font-size:16px;
+outline:none;
+}
+
+.search button{
+padding:16px 35px;
+border:none;
+border-radius:40px;
+background:linear-gradient(90deg,#2ea7ff,#08e2f2);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+/* CATEGORY */
+
+.category{
+padding:60px 8%;
+}
+
+.category h2{
+text-align:center;
+font-size:35px;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.box{
+background:#111827;
+padding:30px;
+border-radius:15px;
+text-align:center;
+transition:.4s;
+cursor:pointer;
+}
+
+.box:hover{
+background:linear-gradient(135deg,#2ea7ff,#08e2f2);
+transform:translateY(-8px);
+}
+
+/* JOBS */
+
+.jobs{
+padding:60px 8%;
+}
+
+.jobs h2{
+text-align:center;
+margin-bottom:40px;
+font-size:35px;
+}
+
+.job-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+gap:30px;
+}
+
+.card{
+background:#12172b;
+padding:30px;
+border-radius:18px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(124,92,255,.4);
+}
+
+.card h3{
+font-size:28px;
+color:#08e2f2;
+margin-bottom:15px;
+}
+
+.card p{
+color:#ccc;
+margin-bottom:20px;
+line-height:28px;
+}
+
+.info{
+display:flex;
+justify-content:space-between;
+margin-bottom:20px;
+font-size:15px;
+color:#ddd;
+}
+
+.apply{
+display:inline-block;
+padding:14px 30px;
+border-radius:30px;
+background:linear-gradient(90deg,#2ea7ff,#08e2f2);
+text-decoration:none;
+color:white;
+}
+
+/* BENEFITS */
+
+.benefits{
+padding:70px 8%;
+background:#0b1022;
+}
+
+.benefits h2{
+text-align:center;
+margin-bottom:40px;
+font-size:35px;
+}
+
+.benefit-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.item{
+background:#151d36;
+padding:30px;
+border-radius:15px;
+text-align:center;
+}
+
+.item h3{
+margin:15px 0;
+color:#08e2f2;
+}
+
+.item p{
+color:#ccc;
+}
+
+/* CTA */
+
+.cta{
+padding:90px 8%;
+text-align:center;
+background:linear-gradient(135deg,#2ea7ff,#08e2f2);
+}
+
+.cta h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.cta p{
+margin-bottom:30px;
+}
+
+.cta a{
+display:inline-block;
+padding:15px 40px;
+background:white;
+color:#08e2f2;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:black;
+color:#aaa;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+width:100%;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<section class="hero">
+
+<h1>Build Your <span>Career</span> With Us</h1>
+
+<p>
+Join Dilshaj Infotech and work on innovative software,
+AI, cloud, mobile and web technologies that impact businesses worldwide.
+</p>
+
+<div class="search">
+
+<input type="text" placeholder="Search Jobs">
+
+<button>Find Jobs</button>
+
+</div>
+
+</section>
+
+<section class="category">
+
+<h2>Career Domains</h2>
+
+<div class="grid">
+
+<div class="box">Java</div>
+
+<div class="box">Python</div>
+
+<div class="box">React JS</div>
+
+<div class="box">UI / UX</div>
+
+<div class="box">DevOps</div>
+
+<div class="box">Testing</div>
+
+<div class="box">Cyber Security</div>
+
+<div class="box">Data Analyst</div>
+
+</div>
+
+</section>
+
+<section class="jobs">
+
+<h2>Open Positions</h2>
+
+<div class="job-grid">
+
+<div class="card">
+
+<h3>Java Developer</h3>
+
+<p>
+Develop enterprise applications using Java,
+Spring Boot and REST APIs.
+</p>
+
+<div class="info">
+<span>📍 Vizag</span>
+<span>5-7 LPA</span>
+</div>
+
+<a href="#" class="apply">Apply Now</a>
+
+</div>
+
+<div class="card">
+
+<h3>Python Developer</h3>
+
+<p>
+Build scalable backend services,
+automation scripts and AI solutions.
+</p>
+
+<div class="info">
+<span>📍 Vizag</span>
+<span>5-8 LPA</span>
+</div>
+
+<a href="#" class="apply">Apply Now</a>
+
+</div>
+
+<div class="card">
+
+<h3>Frontend Developer</h3>
+
+<p>
+Create responsive websites using
+HTML, CSS, JavaScript and React.
+</p>
+
+<div class="info">
+<span>📍 Hybrid</span>
+<span>4-6 LPA</span>
+</div>
+
+<a href="#" class="apply">Apply Now</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="benefits">
+
+<h2>Why Join Dilshaj Infotech?</h2>
+
+<div class="benefit-grid">
+
+<div class="item">
+
+<h3>Learning</h3>
+
+<p>Continuous technical training and mentorship.</p>
+
+</div>
+
+<div class="item">
+
+<h3>Innovation</h3>
+
+<p>Work on AI, Cloud, Mobile and Enterprise projects.</p>
+
+</div>
+
+<div class="item">
+
+<h3>Career Growth</h3>
+
+<p>Fast career progression with leadership opportunities.</p>
+
+</div>
+
+<div class="item">
+
+<h3>Friendly Culture</h3>
+
+<p>Collaborative workplace with flexible environment.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Ready To Start Your Journey?</h2>
+
+<p>Become a part of our growing technology family.</p>
+
+<a href="#">Apply Today</a>
+
+</section>
+
+<footer>
+
+© 2026 Dilshaj Infotech. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Products</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+/* Hero */
+
+.hero{
+background:linear-gradient(135deg,#08e2f2,#08e2f2,#08e2f2);
+padding:80px 20px;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+margin:auto;
+line-height:30px;
+}
+
+/* Products */
+
+.products{
+padding:70px 8%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:35px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:230px;
+object-fit:cover;
+}
+
+.content{
+padding:25px;
+}
+
+.tag{
+display:inline-block;
+background:#08e2f2;
+color:white;
+padding:8px 18px;
+border-radius:30px;
+font-size:14px;
+margin-bottom:15px;
+}
+
+.content h2{
+font-size:28px;
+margin-bottom:15px;
+}
+
+.content p{
+line-height:28px;
+color:#666;
+margin-bottom:25px;
+}
+
+.features{
+margin-bottom:25px;
+}
+
+.features li{
+list-style:none;
+padding:8px 0;
+font-weight:600;
+}
+
+.btn{
+display:inline-block;
+padding:14px 35px;
+background:linear-gradient(90deg,#08e2f2,#08e2f2);
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+letter-spacing:1px;
+}
+
+/* Footer */
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:35px;
+margin-top:60px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:35px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<section class="hero">
+
+<h1>Our Products</h1>
+
+<p>
+Innovative digital solutions crafted for businesses, startups, education,
+healthcare, e-commerce, transportation, and smart technologies.
+</p>
+
+</section>
+
+<section class="products">
+
+<div class="card">
+
+<img src="../pic/What-Is-AI-Imitation-Learning-–-A-Super-Simple-Guide-Anyone-Can-Understand.jpg">
+
+<div class="content">
+
+<span class="tag">Education</span>
+
+<h2>EduProva</h2>
+
+<p>
+AI-powered learning platform for students, professionals and skill development.
+</p>
+
+<ul class="features">
+
+<li>✔ Personalized Learning</li>
+
+<li>✔ AI Assistance</li>
+
+<li>✔ Online Certification</li>
+
+</ul>
+
+<a href="#" class="btn">Explore</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="../pic/istockphoto-157399872-612x612.jpg">
+
+<div class="content">
+
+<span class="tag">Media</span>
+
+<h2>Digital News</h2>
+
+<p>
+Modern digital news platform with real-time updates and AI-powered content.
+</p>
+
+<ul class="features">
+
+<li>✔ Live News</li>
+
+<li>✔ AI Recommendations</li>
+
+<li>✔ Trending Topics</li>
+
+</ul>
+
+<a href="#" class="btn">Explore</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="../pic/car.jpeg">
+
+<div class="content">
+
+<span class="tag">Transportation</span>
+
+<h2>Bike & Car Rider</h2>
+
+<p>
+Smart ride booking application with GPS tracking and instant booking.
+</p>
+
+<ul class="features">
+
+<li>✔ GPS Tracking</li>
+
+<li>✔ Fast Booking</li>
+
+<li>✔ Secure Payment</li>
+
+</ul>
+
+<a href="#" class="btn">Explore</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="../pic/ecommerce.jpeg">
+
+<div class="content">
+
+<span class="tag">Shopping</span>
+
+<h2>E-Commerce</h2>
+
+<p>
+Complete online shopping solution with secure payments and multi-vendor support.
+</p>
+
+<ul class="features">
+
+<li>✔ Multi Vendor</li>
+
+<li>✔ Payment Gateway</li>
+
+<li>✔ Admin Dashboard</li>
+
+</ul>
+
+<a href="#" class="btn">Explore</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="../pic/int.webp">
+
+<div class="content">
+
+<span class="tag">Design</span>
+
+<h2>Interior Design</h2>
+
+<p>
+Professional interior planning with modern 3D visualization and AI suggestions.
+</p>
+
+<ul class="features">
+
+<li>✔ 3D Design</li>
+
+<li>✔ Space Planning</li>
+
+<li>✔ Cost Estimation</li>
+
+</ul>
+
+<a href="#" class="btn">Explore</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="../pic/mobile-app-security.jpg">
+
+<div class="content">
+
+<span class="tag">Security</span>
+
+<h2>Security App</h2>
+
+<p>
+Smart security application with live monitoring and instant emergency alerts.
+</p>
+
+<ul class="features">
+
+<li>✔ Live Camera</li>
+
+<li>✔ Emergency Alert</li>
+
+<li>✔ Face Recognition</li>
+
+</ul>
+
+<a href="#" class="btn">Explore</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Dilshaj Infotech</h3>
+
+<p>Empowering Businesses with Innovative Digital Products.</p>
+
+</footer>
+
+</body>
+</html>
