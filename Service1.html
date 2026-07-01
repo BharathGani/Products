@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0b1120;
+color:white;
+}
+
+.hero{
+padding:80px 10%;
+text-align:center;
+background:linear-gradient(135deg,#0b1120,#08e2f2);
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+color:#ddd;
+margin-bottom:30px;
+}
+
+.hero button{
+padding:15px 35px;
+background:#08e2f2;
+border:none;
+border-radius:30px;
+color:white;
+font-size:17px;
+cursor:pointer;
+}
+
+.services{
+padding:70px 8%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1f2937;
+padding:30px;
+border-radius:15px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#08e2f2;
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+line-height:28px;
+color:#ddd;
+}
+
+/* Process */
+
+.process{
+padding:70px 8%;
+background:#111827;
+}
+
+.steps{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.step{
+width:180px;
+text-align:center;
+margin:20px;
+}
+
+.circle{
+width:70px;
+height:70px;
+border-radius:50%;
+background:#08e2f2;
+margin:auto;
+line-height:70px;
+font-size:28px;
+font-weight:bold;
+}
+
+.tech{
+padding:70px 8%;
+}
+
+.tech-box{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.tech-box span{
+padding:15px 25px;
+background:#1f2937;
+border-radius:30px;
+}
+
+.cta{
+padding:80px;
+text-align:center;
+background:linear-gradient(135deg,#08e2f2,#08e2f2);
+}
+
+.cta h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.cta button{
+padding:15px 35px;
+border:none;
+border-radius:30px;
+background:white;
+font-size:17px;
+cursor:pointer;
+}
+
+footer{
+background:#111827;
+padding:30px;
+text-align:center;
+color:#bbb;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:35px;
+}
+
+.steps{
+justify-content:center;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<section class="services">
+
+<h1 class="title">Our Services</h1>
+
+<div class="container">
+
+<div class="card">
+<h2>🤖 AI & Machine Learning</h2>
+<p>
+AI Chatbots<br>
+Predictive Analytics<br>
+Automation Solutions<br>
+Deep Learning
+</p>
+</div>
+
+<div class="card">
+<h2>💻 Web Development</h2>
+<p>
+Responsive Websites<br>
+React Applications<br>
+Spring Boot APIs<br>
+E-Commerce
+</p>
+</div>
+
+<div class="card">
+<h2>📱 Mobile Apps</h2>
+<p>
+Android Apps<br>
+iOS Apps<br>
+Flutter Apps<br>
+Hybrid Development
+</p>
+</div>
+
+<div class="card">
+<h2>🎨 UI / UX Design</h2>
+<p>
+Wireframes<br>
+Figma Design<br>
+Interactive UI<br>
+User Experience
+</p>
+</div>
+
+<div class="card">
+<h2>☁ Cloud Solutions</h2>
+<p>
+AWS<br>
+Azure<br>
+Cloud Migration<br>
+DevOps
+</p>
+</div>
+
+<div class="card">
+<h2>🔒 Cyber Security</h2>
+<p>
+Security Testing<br>
+Data Protection<br>
+Network Security<br>
+Monitoring
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="process">
+
+<h1 class="title">Our Process</h1>
+
+<div class="steps">
+
+<div class="step">
+<div class="circle">1</div>
+<h3>Research</h3>
+</div>
+
+<div class="step">
+<div class="circle">2</div>
+<h3>Planning</h3>
+</div>
+
+<div class="step">
+<div class="circle">3</div>
+<h3>Design</h3>
+</div>
+
+<div class="step">
+<div class="circle">4</div>
+<h3>Development</h3>
+</div>
+
+<div class="step">
+<div class="circle">5</div>
+<h3>Testing</h3>
+</div>
+
+<div class="step">
+<div class="circle">6</div>
+<h3>Launch</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="tech">
+
+<h1 class="title">Technology Stack</h1>
+
+<div class="tech-box">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>React</span>
+<span>Java</span>
+<span>Spring Boot</span>
+<span>MySQL</span>
+<span>Python</span>
+<span>AWS</span>
+<span>Docker</span>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Let's Build Your Next Project</h2>
+
+<p>
+We create scalable digital solutions for your business.
+</p>
+
+<br>
+
+<button>Contact Us</button>
+
+</section>
+
+<footer>
+
+© 2026 Dilshaj Infotech. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
